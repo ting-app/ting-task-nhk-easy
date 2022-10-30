@@ -4,5 +4,7 @@ github.com/go-sql-driver/mysql v1.6.0/go.mod h1:DCzpHaOWr8IXmIStZouvnhqoel9Qv2LB
 github.com/nhk-news-web-easy/nhk-news-fetcher-go v0.0.0-20221029032953-4d6586d16420 h1:hghA7N5AB/qIbU2RXyXkJmjtNbBcnuTFa0a/ggfQly0=
 github.com/nhk-news-web-easy/nhk-news-fetcher-go v0.0.0-20221029032953-4d6586d16420/go.mod h1:6+IQFEZhbF/oarhrQiFUKeTMTDe90TUWCxhMxpeYQ7s=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
+github.com/robfig/cron/v3 v3.0.0 h1:kQ6Cb7aHOHTSzNVNEhmp8EcWKLb4CbiMW9h9VyIhO4E=
+github.com/robfig/cron/v3 v3.0.0/go.mod h1:eQICP3HwyT7UooqI/z+Ov+PtYAWygg1TEWWzGIFLtro=
 github.com/stretchr/testify v1.8.0 h1:pSgiaMZlXftHpm5L7V1+rVB+AZJydKsMxsQBIJw4PKk=
 gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
