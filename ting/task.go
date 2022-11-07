@@ -44,6 +44,8 @@ func RunTask() error {
 
 	defer CloseDb()
 
+	savedTing := 0
+
 	for _, news := range newsList {
 		ting := Ting{
 			ProgramId:   programId,
@@ -59,7 +61,11 @@ func RunTask() error {
 		if err != nil {
 			return err
 		}
+
+		savedTing += 1
 	}
+
+	log.Printf("Saved %v news as ting\n", savedTing)
 
 	return nil
 }
