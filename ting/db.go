@@ -19,6 +19,12 @@ func InitDb(config DbConfig) error {
 		return err
 	}
 
+	err = db.Ping()
+
+	if err != nil {
+		return err
+	}
+
 	return nil
 }
 
