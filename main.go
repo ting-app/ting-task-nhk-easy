@@ -35,7 +35,7 @@ func main() {
 		run(enableSentry)()
 	} else {
 		scheduler := gocron.NewScheduler(time.UTC)
-		_, err := scheduler.Every(1).Day().At("10:30").Do(run(enableSentry))
+		_, err := scheduler.Every(1).Day().At("12:30").Do(run(enableSentry))
 
 		if err != nil {
 			log.Fatalf("Failed to schedule task, %v", err)
